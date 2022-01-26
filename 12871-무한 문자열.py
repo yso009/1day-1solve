@@ -16,7 +16,6 @@ def dirtn(s,t):
         b = b % a
     return dirtn(a,b)
 
-# print((a*b)//dirtn(a,b))
 def main(s,t): 
     x = (a*b)//dirtn(a,b)
     if s == t: return 1
