@@ -4,7 +4,7 @@ a,b,c = list(map(int, input().split()))
 if b > c : b,c = c,b
 
 count = 1
-
+ 
 while True:
 
     if b%2 == 1 and c - b == 1 : 
