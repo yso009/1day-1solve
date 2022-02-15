@@ -8,7 +8,7 @@ for i in range(n):
     li.append(int(sys.stdin.readline()))
 
 li.sort(reverse=True)
-
+ 
 check = True
 
 for i in range(len(li)-2):
