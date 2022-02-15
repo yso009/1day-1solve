@@ -3,7 +3,6 @@ a,b,c = list(map(int, input().split()))
 
 if b > c : b,c = c,b
 
-print(b,c)
 count = 1
 
 while True:
