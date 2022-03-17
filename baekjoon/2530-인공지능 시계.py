@@ -16,6 +16,6 @@ if 60> second >=0:
   C = C + second
   second = second-C
   if C>=60:
-    C = C%60
+    C = C%60 
 
 print(A,B,C)
