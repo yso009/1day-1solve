@@ -12,5 +12,5 @@ while True:
         n = n-1
         c += 1
     if n == 1:
-        break
+        break 
 print(c)
