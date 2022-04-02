@@ -9,6 +9,6 @@ for i in range(len(s)):
 
   else:
     result+=int(e)
-    e = '0'
+    e = '12'
 
 print(result)
