@@ -18,7 +18,7 @@ def dirtn(s,t):
 
 def main(s,t): 
     x = (a*b)//dirtn(a,b)
-    if s == t: return 0
+    if s == t: return 1
     else: 
         s = s*(x//len(s))
         t = t*(x//len(t))
